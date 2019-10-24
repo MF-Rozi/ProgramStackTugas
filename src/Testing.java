@@ -7,7 +7,10 @@ public class Testing {
         a.push(5,"AirMineral","Jalan Subrantas");
 
         a.print();
+        System.out.println("=========================");
+        System.out.println("Pop ="+a.pop().nama);
+        System.out.println("=========================");
 
-        System.out.println(a.pop().nama);
+        a.print();
     }
 }

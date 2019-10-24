@@ -22,9 +22,12 @@ public class Stacking {
 
     public void print()
     {
-        for (int i = box.length-1; i >= 0; i--) {
-            System.out.printf("\n\nBarang :%s \nBerat :%d\nAlamat :%s\n\n",box[i].nama,box[i].weight,box[i].adress);
+        System.out.println("=========================");
+        for (int i = top; i >= 0; i--) {
+            System.out.printf("Barang :%s \nBerat :%d kg\nAlamat :%s\n",box[i].nama,box[i].weight,box[i].adress);
         }
+        System.out.println("=========================");
+
     }
 
 }
